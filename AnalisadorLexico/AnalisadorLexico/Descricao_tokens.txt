@@ -1,0 +1,15 @@
+IDENTIFICADORES
+	(a..z) (A..Z|o..0|a..z)*
+NUMEROS
+	(0..9)+
+PONTUACAO
+	;
+OP_REL
+	> | >=| < | <= | == | !=
+OP_ATR
+	=
+
+observações
+	a..z -> intervalo da letra 'a' ate letra 'z'
+*	-> 0 ou mais repetições
++	-> 1 ou mais repetições
